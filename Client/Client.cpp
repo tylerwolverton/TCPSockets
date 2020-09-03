@@ -35,7 +35,7 @@ int main()
     // Get the Server IP address and port
     std::string hostname("MathTixWinDev");
     std::string serverPort("48000");
-    iResult = getaddrinfo(hostname.c_str(), serverPort.c_str(), &addrHintsIn, &pAddrOut); 
+    iResult = getaddrinfo(hostname.c_str(), serverPort.c_str(), &addrHintsIn, &pAddrOut);
     if (iResult != 0)
     {
         std::cerr << "Call to getaddrinfo() failed" << std::endl;
